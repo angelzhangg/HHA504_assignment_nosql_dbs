@@ -34,6 +34,8 @@ PatientID,Name,Age,Gender,DiagnosisCode,VisitDate,Hospital,TreatmentPlan,FollowU
   - Use your student account project to create a new dataset in BigQuery.
   - Upload the provided healthcare dataset (CSV) into a table within your dataset.
   - Note the connection details and the query editor interface.
+    
+![bigQuery](https://github.com/user-attachments/assets/b83a5adb-0802-4a37-8e43-3c8952b40eb5)
 
 - **MongoDB Atlas (Cloud):**
   - Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) and register for the free tier using your Stony Brook email.
@@ -95,10 +97,10 @@ PatientID,Name,Age,Gender,DiagnosisCode,VisitDate,Hospital,TreatmentPlan,FollowU
 ### 2. Explore BigQuery (GCP)
 - **BigQuery:**
   - In the Google Cloud Console, run a simple SQL query against the dataset you uploaded:
-      ```sql
-      SELECT * FROM `your_project_id.your_dataset_id.your_table_id` WHERE Age > 40
-      ```
-  - Monitor the usage and cost associated with running the query.
+
+![bigQuery](https://github.com/user-attachments/assets/eb484617-b416-4c95-8ed3-ee4e18ddc197)
+![BILLING](https://github.com/user-attachments/assets/87743f57-20b8-4219-8ed5-bc642d573f29)
+  - WAS BILLED 0 BYTES
 ### 3. Modify and Explore the Data in MongoDB Atlas and Redis Cloud
 - **MongoDB Atlas**:
   - Insert the dataset into MongoDB Atlas, converting each row into a JSON-like document.
@@ -115,3 +117,4 @@ PatientID,Name,Age,Gender,DiagnosisCode,VisitDate,Hospital,TreatmentPlan,FollowU
 - For each of the three services (BigQuery, MongoDB Atlas, Redis Cloud), document your experience creating and working with the healthcare dataset:
   - Describe the setup process and any configuration steps.
   - Share your reflections on the interface and usability of each platform.
+ All 3 services have their pros and cons. BigQuery offers a lot of other services so although BigQuery was pretty simple and easy to use, I think it was still more complicated then the other two services.
