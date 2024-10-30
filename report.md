@@ -69,6 +69,10 @@ PatientID,Name,Age,Gender,DiagnosisCode,VisitDate,Hospital,TreatmentPlan,FollowU
         # Insert the data into the MongoDB collection
         collection.insert_many(data)
         ```
+![mangodb](https://github.com/user-attachments/assets/b6e29468-bd50-4e72-91ed-2f085726f763)
+mongodb+srv://zhang:<db_password>@angela-mango.zr2eo.mongodb.net/
+
+
 
 - **Redis Cloud:**
   - Go to [Redis Cloud](https://redis.io/cloud/) and sign up for a free tier account using your Stony Brook email.
@@ -117,4 +121,5 @@ PatientID,Name,Age,Gender,DiagnosisCode,VisitDate,Hospital,TreatmentPlan,FollowU
 - For each of the three services (BigQuery, MongoDB Atlas, Redis Cloud), document your experience creating and working with the healthcare dataset:
   - Describe the setup process and any configuration steps.
   - Share your reflections on the interface and usability of each platform.
- All 3 services have their pros and cons. BigQuery offers a lot of other services so although BigQuery was pretty simple and easy to use, I think it was still more complicated then the other two services.
+    
+All 3 services have their pros and cons. BigQuery offers a lot of other services so although BigQuery was pretty simple and easy to use, I think it was still more complicated then the other two services. MongoDB is pretty simple as well however I ran into a problem where I was unable to upload the data file so I was unable to query anything. Lastly, Redis Cloud is good for building real time data so Its another create tool that works similary as the other two. 
