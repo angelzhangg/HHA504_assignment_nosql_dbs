@@ -98,6 +98,9 @@ mongodb+srv://zhang:<db_password>@angela-mango.zr2eo.mongodb.net/
           r.set(patient_data['PatientID'], json.dumps(patient_data))
         ```
 
+![redis](https://github.com/user-attachments/assets/92dea392-37fd-47c6-acf6-3f70bcf3f865)
+
+
 ### 2. Explore BigQuery (GCP)
 - **BigQuery:**
   - In the Google Cloud Console, run a simple SQL query against the dataset you uploaded:
